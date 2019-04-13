@@ -17,12 +17,14 @@ function start_agent
     chmod 600 $SSH_ENV
     . $SSH_ENV > /dev/null
     ssh-add -K ~/.ssh/github_rsa
+    ssh-add -K ~/.ssh/id_rsa_mhack_default
 end
 
 function test_identities
     ssh-add -l | grep "The agent has no identities" > /dev/null
     if [ $status -eq 0 ]
         ssh-add -K ~/.ssh/github_rsa
+        ssh-add -K ~/.ssh/id_rsa_mhack_default
         if [ $status -eq 2 ]
             start_agent
         end
