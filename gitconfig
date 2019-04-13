@@ -1,0 +1,8 @@
+[user]
+  name = kindaichidai
+  email = kindai.0911@gmail.com
+[core]
+  editor = vim
+  excludesfile = /Users/kindaichidai/.gitignore_global
+[alias]
+  co = checkout
