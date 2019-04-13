@@ -1,0 +1,96 @@
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew anyenv
+brew ctags
+brew fish
+brew fontconfig
+brew freetype
+brew gd
+brew gdbm
+brew gettext
+brew git
+brew glib
+brew graphviz
+brew gts
+brew icu4c
+brew imagemagick
+brew jasper
+brew jpeg
+brew libde265
+brew libffi
+brew libheif
+brew libomp
+brew libpng
+brew libtiff
+brew libtool
+brew libyaml
+brew little-cms2
+brew lua
+brew mas
+brew netpbm
+brew node
+brew openjpeg
+brew openssl
+brew pcre
+brew pcre2
+brew perl
+brew postgresql
+brew postgresql@9.6
+brew python
+brew readline
+brew redis
+brew ruby
+brew sqlite
+brew vim
+brew webp
+brew x265
+brew xz
+brew yarn
+
+tap homebrew/cask-fonts
+cask font-hack-nerd-font
+
+tap homebrew/cask
+cask 1password
+cask atom
+cask cheatsheet
+cask dropbox
+cask firefox
+cask google-japanese-ime
+cask karabiner-elements
+cask ngrok
+cask psequel
+cask spotify
+
+tap argon/mas
+
+tap heroku/brew
+brew heroku
+brew heroku-node
+
+tap rcmdnk/file
+brew brew-file
+
+tap thoughtbot/formulae
+brew rcm
+
+# Other Cask applications
+cask anki
+cask boostnote
+cask docker
+cask figma
+cask google-chrome
+cask iterm2
+cask kindle
+cask postman
+cask slack
+cask visual-studio-code
+
+# App Store applications
+appstore 408981434  (10.1.11)
+appstore 682658836  (10.3.2)
+appstore 409203825  (6.0)
+appstore 409201541  (8.0)
+appstore 409183694  (9.0.1)
