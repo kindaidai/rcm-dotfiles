@@ -1,4 +1,4 @@
-# git master branch
+
 set -g theme_display_git_master_branch yes
 # ruby version
 set -g theme_display_ruby yes
@@ -120,3 +120,6 @@ set PATH $HOME/.local/bin $PATH
 
 # for npm bin
 set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/versions/10.14.0/bin' $PATH
+
+# for mysql
+set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
