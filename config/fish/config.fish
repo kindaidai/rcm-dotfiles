@@ -74,7 +74,7 @@ function rbenv
 end
 
 # anyenv nodenv
-# ndenv
+# nodenv
 set -x NODENV_ROOT "$HOME/.anyenv/envs/nodenv"
 set -x PATH $PATH "$NODENV_ROOT/bin"
 set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/shims' $PATH
@@ -93,7 +93,7 @@ function nodenv
   end
 end
 
-# anyenv nodenv
+# anyenv pyenv
 # pyenv
 set -x PYENV_ROOT "$HOME/.anyenv/envs/pyenv"
 set -x PATH $PATH "$PYENV_ROOT/bin"
@@ -119,7 +119,7 @@ end
 set PATH $HOME/.local/bin $PATH
 
 # for npm bin
-set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/versions/10.14.0/bin' $PATH
+# set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/versions/10.14.0/bin' $PATH
 
 # for mysql
 set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
