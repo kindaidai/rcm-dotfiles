@@ -4,6 +4,7 @@
 
 ## Install
 [install homebrew](https://brew.sh/index_ja)
+
 [install homebrew-file](https://github.com/rcmdnk/homebrew-file)
 
 ```shell
