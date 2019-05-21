@@ -112,8 +112,7 @@ let g:lightline = {
         \    'fugitive': 'MyFugitive',
         \    'filename': 'MyFilename',
         \  },
-        \ 'separator': {'left': '⮀', 'right': '⮂'},
-        \ 'subseparator': {'left': '⮁', 'right': '⮃'}
+        \ 'subseparator': {'left': '|', 'right': '|'}
         \ }
 
 function! MyFugitive()

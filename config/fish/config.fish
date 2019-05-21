@@ -123,3 +123,4 @@ set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/versions/10.14.0/bin' $PAT
 
 # for mysql
 set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
+
