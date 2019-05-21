@@ -31,6 +31,7 @@ brew libyaml
 brew little-cms2
 brew lua
 brew mas
+brew mysql@5.7
 brew netpbm
 brew node
 brew oniguruma
@@ -53,6 +54,10 @@ brew webp
 brew x265
 brew xz
 brew yarn
+brew zlib
+
+tap homebrew/cask-drivers
+cask wd-security
 
 tap homebrew/cask-fonts
 cask font-hack-nerd-font
@@ -63,13 +68,15 @@ cask atom
 cask boostnote
 cask docker
 cask figma
-cask google-chrome
-cask iterm2
-cask keyboard-cleaner
-cask ngrok
-cask psequel
-cask spotify
-cask virtualbox
+cask google-backup-and-sync
+cask google-japanese-ime
+cask karabiner-elements
+cask kindle
+cask postman
+cask scroll-reverser
+cask slack
+cask vagrant
+cask visual-studio-code
 
 tap argon/mas
 
@@ -92,17 +99,18 @@ cask authy
 cask cheatsheet
 cask dropbox
 cask firefox
-cask google-japanese-ime
-cask karabiner-elements
-cask kindle
-cask postman
-cask slack
-cask vagrant
-cask visual-studio-code
+cask google-chrome
+cask iterm2
+cask keyboard-cleaner
+cask ngrok
+cask psequel
+cask sequel-pro
+cask spotify
+cask virtualbox
 
 # App Store applications
-appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.11)
-appstore 409183694 Keynote (9.0.2)
-appstore 409203825 Numbers (6.0)
-appstore 409201541 Pages (8.0)
+appstore 408981434  (10.1.11)
+appstore 682658836  (10.3.2)
+appstore 409203825  (6.0)
+appstore 409201541  (8.0)
+appstore 409183694  (9.0.2)
