@@ -69,7 +69,6 @@ cask boostnote
 cask docker
 cask figma
 cask google-backup-and-sync
-cask google-japanese-ime
 cask karabiner-elements
 cask kindle
 cask postman
@@ -94,7 +93,6 @@ tap wercker/wercker
 brew wercker-cli
 
 # Other Cask applications
-cask anki
 cask authy
 cask cheatsheet
 cask dropbox
