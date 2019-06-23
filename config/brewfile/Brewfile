@@ -41,7 +41,6 @@ brew openssl
 brew pcre
 brew pcre2
 brew perl
-brew postgresql
 brew postgresql@9.6
 brew python
 brew readline

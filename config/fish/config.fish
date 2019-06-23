@@ -124,3 +124,5 @@ set PATH $HOME/.local/bin $PATH
 # for mysql
 set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
 
+# for postgresql
+set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
