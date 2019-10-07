@@ -115,6 +115,26 @@ end
 # for python 3.7.3 install in pyenv
 # https://github.com/pyenv/pyenv/issues/1184#issuecomment-458358654
 
+# anyenv goenv
+set -x GOENV_ROOT "$HOME/.anyenv/envs/goenv"
+set -x PATH $PATH "$GOENV_ROOT/bin"
+set -gx PATH '/Users/kindaichidai/.anyenv/envs/goenv/shims' $PATH
+set -gx RBENV_SHELL fish
+source '/Users/kindaichidai/.anyenv/envs/goenv/libexec/../completions/goenv.fish'
+command goenv rehash 2>/dev/null
+function goenv
+  set command $argv[1]
+  set -e argv[1]
+
+  switch "$command"
+  case rehash shell
+    source (goenv "sh-$command" $argv|psub)
+  case '*'
+    command goenv "$command" $argv
+  end
+end
+
+
 # aws-cli
 set PATH $HOME/.local/bin $PATH
 
@@ -126,3 +146,4 @@ set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
 
 # for postgresql
 set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
+

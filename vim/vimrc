@@ -54,6 +54,8 @@ set autoread
 " :bコマンドでbufferを切り替える時に編集中ファイルを保存しなくても良くなる。
 set hidden
 set showcmd
+" use clibboard"
+set clipboard+=unnamed
 
 " ----
 " 検索

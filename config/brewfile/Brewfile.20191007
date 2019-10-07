@@ -3,7 +3,6 @@
 
 tap homebrew/core
 brew anyenv
-brew awscli
 brew ctags
 brew fish
 brew fontconfig
@@ -15,7 +14,6 @@ brew git
 brew glib
 brew graphviz
 brew gts
-brew h2o
 brew icu4c
 brew ilmbase
 brew imagemagick
@@ -33,21 +31,16 @@ brew libyaml
 brew little-cms2
 brew lua
 brew mas
-brew mysql
 brew mysql@5.7
 brew netpbm
-brew nginx
 brew node
 brew oniguruma
 brew openexr
 brew openjpeg
 brew openssl
-brew openssl@1.1
 brew pcre
 brew pcre2
-brew peco
 brew perl
-brew postgresql
 brew postgresql@9.6
 brew python
 brew readline
@@ -62,33 +55,26 @@ brew xz
 brew yarn
 brew zlib
 
-tap homebrew/bundle
-
 tap homebrew/cask-drivers
 cask wd-security
 
 tap homebrew/cask-fonts
 cask font-hack-nerd-font
 
-tap homebrew/services
-
 tap homebrew/cask
 cask 1password
 cask atom
 cask boostnote
-cask discord
-cask dropbox
-cask firefox
-cask google-chrome
-cask iterm2
-cask keyboard-cleaner
-cask ngrok
-cask podcastmenu
-cask psequel
-cask sequel-pro
-cask spotify
-cask virtualbox
-cask xquartz
+cask docker
+cask figma
+cask google-backup-and-sync
+cask karabiner-elements
+cask kindle
+cask postman
+cask scroll-reverser
+cask slack
+cask vagrant
+cask visual-studio-code
 
 tap argon/mas
 
@@ -106,25 +92,22 @@ tap wercker/wercker
 brew wercker-cli
 
 # Other Cask applications
-cask anki
 cask authy
 cask cheatsheet
-cask docker
-cask figma
-cask google-backup-and-sync
-cask google-japanese-ime
-cask karabiner-elements
-cask kindle
-cask notion
-cask postman
-cask scroll-reverser
-cask slack
-cask vagrant
-cask visual-studio-code
+cask dropbox
+cask firefox
+cask google-chrome
+cask iterm2
+cask keyboard-cleaner
+cask ngrok
+cask psequel
+cask sequel-pro
+cask spotify
+cask virtualbox
 
 # App Store applications
-appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.12)
-appstore 409183694 Keynote (9.2)
-appstore 409203825 Numbers (6.2)
-appstore 409201541 Pages (8.2)
+appstore 408981434  (10.1.11)
+appstore 682658836  (10.3.2)
+appstore 409203825  (6.0)
+appstore 409201541  (8.0)
+appstore 409183694  (9.0.2)
