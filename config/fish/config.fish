@@ -147,3 +147,7 @@ set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
 # for postgresql
 set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
 
+#fisherパッケージoh-my-fish/plugin-pecoの設定
+function fish_user_key_bindings
+  bind \cr peco_select_history # Bind for prco history to Ctrl+r
+end
