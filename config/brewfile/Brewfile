@@ -41,7 +41,6 @@ brew node
 brew oniguruma
 brew openexr
 brew openjpeg
-brew openssl
 brew openssl@1.1
 brew pcre
 brew pcre2
@@ -49,6 +48,7 @@ brew peco
 brew perl
 brew postgresql
 brew postgresql@9.6
+brew protobuf@3.7
 brew python
 brew readline
 brew redis
@@ -74,17 +74,16 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
-cask atom
-cask boostnote
-cask discord
-cask dropbox
-cask firefox
-cask google-chrome
-cask iterm2
-cask keyboard-cleaner
-cask ngrok
-cask podcastmenu
-cask psequel
+cask authy
+cask cheatsheet
+cask docker
+cask figma
+cask google-backup-and-sync
+cask gyazo
+cask karabiner-elements
+cask kindle
+cask notion
+cask postman
 cask sequel-pro
 cask spotify
 cask virtualbox
@@ -106,25 +105,24 @@ tap wercker/wercker
 brew wercker-cli
 
 # Other Cask applications
-cask anki
-cask authy
-cask cheatsheet
-cask docker
-cask figma
-cask google-backup-and-sync
-cask google-japanese-ime
-cask karabiner-elements
-cask kindle
-cask notion
-cask postman
-cask scroll-reverser
+cask atom
+cask boostnote
+cask discord
+cask dropbox
+cask firefox
+cask google-chrome
+cask iterm2
+cask keyboard-cleaner
+cask ngrok
+cask podcastmenu
+cask psequel
 cask slack
 cask vagrant
 cask visual-studio-code
 
 # App Store applications
 appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.12)
-appstore 409183694 Keynote (9.2)
-appstore 409203825 Numbers (6.2)
-appstore 409201541 Pages (8.2)
+appstore 408981434 iMovie (10.1.13)
+appstore 409183694 Keynote (9.2.1)
+appstore 409203825 Numbers (6.2.1)
+appstore 409201541 Pages (8.2.1)

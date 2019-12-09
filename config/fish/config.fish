@@ -151,3 +151,6 @@ set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
 function fish_user_key_bindings
   bind \cr peco_select_history # Bind for prco history to Ctrl+r
 end
+
+# diff-highlight for git
+ln -s /usr/local/share/git-core/contrib/diff-highlight/diff-highlight /usr/local/bin/diff-highlight
