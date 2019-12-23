@@ -8,6 +8,7 @@
   co = checkout
   sw = switch
   ph = push
+  ec = commit -m 'empty commit' --allow-empty
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less
