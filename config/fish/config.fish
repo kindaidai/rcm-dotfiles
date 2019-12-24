@@ -154,3 +154,6 @@ end
 
 # diff-highlight for git
 ln -s /usr/local/share/git-core/contrib/diff-highlight/diff-highlight /usr/local/bin/diff-highlight
+
+#  +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+set -gx OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
