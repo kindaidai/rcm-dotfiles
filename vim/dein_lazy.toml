@@ -10,3 +10,10 @@ on_ft = 'ruby'
 repo = 'tpope/vim-rails'
 on_ft = 'ruby'
 
+################################################
+# Go
+################################################
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']
+hook_add = ''

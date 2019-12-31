@@ -157,3 +157,6 @@ ln -s /usr/local/share/git-core/contrib/diff-highlight/diff-highlight /usr/local
 
 #  +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
 set -gx OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
+
+# change directory color
+set -gx LSCOLORS gxfxcxdxbxegedabagacad
