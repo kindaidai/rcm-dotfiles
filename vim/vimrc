@@ -71,8 +71,7 @@ set incsearch
 " ----
 set backspace=indent,eol,start
 set shiftwidth=2
-set tabstop=2
-set expandtab
+set tabstop=4
 set mouse=a
 
 " ----
@@ -82,6 +81,16 @@ imap <C-p> <Up>
 imap <C-n> <Down>
 imap <C-b> <Left>
 imap <C-f> <Right>
+imap <C-e> <C-o>$
+imap <C-a> <C-o>^
+
+" ----
+" コマンド
+" ----
+command W w
+command Q q
+command Wq wq
+command WQ wq
 
 " ----
 " プラグイン
@@ -99,6 +108,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " タブ移動キーマッピング
 nnoremap <C-n> gt
 nnoremap <C-p> gT
+map <C-n> :NERDTreeToggle<CR>
 
 " vim-gitgutter
 set updatetime=250
@@ -181,6 +191,10 @@ syntax on
 "タブ、空白、改行の可視化
 set list
 set listchars=tab:>.,trail:-,eol:↲,extends:>,precedes:<,nbsp:%
+" eol, extends, precedes
+hi NonText ctermbg=NONE ctermfg=240
+" nbsp, tab, trail
+hi SpecialKey ctermbg=NONE ctermfg=240
 
 "全角スペースをハイライト表示
 function! ZenkakuSpace()

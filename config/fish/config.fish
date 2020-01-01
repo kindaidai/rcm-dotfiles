@@ -160,3 +160,7 @@ set -gx OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
 
 # change directory color
 set -gx LSCOLORS gxfxcxdxbxegedabagacad
+
+# GOPATH
+set -gx GOPATH '/Users/kindaichidai/go'
+
