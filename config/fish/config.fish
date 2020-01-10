@@ -164,3 +164,5 @@ set -gx LSCOLORS gxfxcxdxbxegedabagacad
 # GOPATH
 set -gx GOPATH '/Users/kindaichidai/go'
 
+# fzf
+set -U FZF_LEGACY_KEYBINDINGS 0

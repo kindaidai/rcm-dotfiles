@@ -8,6 +8,7 @@ brew ctags
 brew fish
 brew fontconfig
 brew freetype
+brew fzf
 brew gd
 brew gdbm
 brew gettext
@@ -46,15 +47,18 @@ brew pcre
 brew pcre2
 brew peco
 brew perl
+brew pkg-config
 brew postgresql
 brew postgresql@9.6
 brew protobuf@3.7
 brew python
+brew python@3.8
 brew readline
 brew redis
 brew ruby
 brew shared-mime-info
 brew sqlite
+brew the_silver_searcher
 brew vim
 brew webp
 brew x265
@@ -121,8 +125,9 @@ cask vagrant
 cask visual-studio-code
 
 # App Store applications
-appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.13)
+appstore 682658836 GarageBand (10.3.4)
+appstore 408981434 iMovie (10.1.14)
 appstore 409183694 Keynote (9.2.1)
 appstore 409203825 Numbers (6.2.1)
 appstore 409201541 Pages (8.2.1)
+appstore 497799835 Xcode (11.3)
