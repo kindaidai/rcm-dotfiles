@@ -50,6 +50,7 @@ brew perl
 brew pkg-config
 brew postgresql
 brew postgresql@9.6
+brew protobuf
 brew protobuf@3.7
 brew python
 brew python@3.8
@@ -78,19 +79,33 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
+cask atom
 cask authy
+cask boostnote
 cask cheatsheet
+cask discord
 cask docker
+cask dropbox
 cask figma
+cask firefox
 cask google-backup-and-sync
+cask google-chrome
 cask gyazo
+cask iterm2
 cask karabiner-elements
+cask keyboard-cleaner
 cask kindle
+cask ngrok
 cask notion
+cask podcastmenu
 cask postman
+cask psequel
 cask sequel-pro
+cask slack
 cask spotify
+cask vagrant
 cask virtualbox
+cask visual-studio-code
 cask xquartz
 
 tap argon/mas
@@ -108,26 +123,10 @@ brew rcm
 tap wercker/wercker
 brew wercker-cli
 
-# Other Cask applications
-cask atom
-cask boostnote
-cask discord
-cask dropbox
-cask firefox
-cask google-chrome
-cask iterm2
-cask keyboard-cleaner
-cask ngrok
-cask podcastmenu
-cask psequel
-cask slack
-cask vagrant
-cask visual-studio-code
-
 # App Store applications
 appstore 682658836 GarageBand (10.3.4)
+appstore 1437226581 Horo (2.0.3)
 appstore 408981434 iMovie (10.1.14)
 appstore 409183694 Keynote (9.2.1)
 appstore 409203825 Numbers (6.2.1)
 appstore 409201541 Pages (8.2.1)
-appstore 497799835 Xcode (11.3)
