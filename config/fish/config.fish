@@ -145,7 +145,7 @@ set PATH $HOME/.local/bin $PATH
 set -gx PATH '/usr/local/opt/mysql@5.7/bin' $PATH
 
 # for postgresql
-set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
+# set -gx PATH '/usr/local/opt/postgresql@9.6/bin' $PATH
 
 #fisherパッケージoh-my-fish/plugin-pecoの設定
 function fish_user_key_bindings
@@ -166,3 +166,6 @@ set -gx GOPATH '/Users/kindaichidai/go'
 
 # fzf
 set -U FZF_LEGACY_KEYBINDINGS 0
+
+# .node_modules/.bin
+set PATH './node_modules/.bin' $PATH
