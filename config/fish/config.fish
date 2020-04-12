@@ -1,4 +1,4 @@
-
+set PATH /usr/local/bin /usr/sbin $PATH
 set -g theme_display_git_master_branch yes
 # ruby version
 set -g theme_display_ruby yes
