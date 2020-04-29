@@ -12,6 +12,7 @@ brew fzf
 brew gd
 brew gdbm
 brew gettext
+brew ghostscript
 brew git
 brew glib
 brew graphviz
@@ -55,12 +56,14 @@ brew protobuf
 brew protobuf@3.7
 brew python
 brew python@3.8
+brew rcm
 brew readline
 brew redis
 brew ruby
 brew shared-mime-info
 brew sqlite
 brew the_silver_searcher
+brew v8@3.15
 brew vim
 brew webp
 brew x265
@@ -84,6 +87,7 @@ cask atom
 cask authy
 cask boostnote
 cask cheatsheet
+cask deepl
 cask discord
 cask docker
 cask dropbox
@@ -124,17 +128,16 @@ tap rcmdnk/file
 brew brew-file
 
 tap thoughtbot/formulae
-brew rcm
 
 tap wercker/wercker
 brew wercker-cli
 
 # App Store applications
-appstore 1091189122 Bear (1.7.10)
+appstore 1091189122 Bear (1.7.11)
 appstore 682658836 GarageBand (10.3.4)
-appstore 1437226581 Horo (2.0.6)
+appstore 1437226581 Horo (2.0.8)
 appstore 408981434 iMovie (10.1.14)
 appstore 409183694 Keynote (10.0)
 appstore 409203825 Numbers (10.0)
 appstore 409201541 Pages (10.0)
-appstore 497799835 Xcode (11.4)
+appstore 497799835 Xcode (11.4.1)
