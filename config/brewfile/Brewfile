@@ -4,20 +4,26 @@
 tap homebrew/core
 brew anyenv
 brew awscli
+brew cairo
 brew ctags
 brew fish
 brew fontconfig
 brew freetype
+brew fribidi
 brew fzf
 brew gd
 brew gdbm
 brew gettext
+brew gh
 brew ghostscript
+brew ghq
 brew git
 brew glib
+brew graphite2
 brew graphviz
 brew gts
 brew h2o
+brew harfbuzz
 brew icu4c
 brew ilmbase
 brew imagemagick
@@ -35,6 +41,7 @@ brew libtool
 brew libyaml
 brew little-cms2
 brew lua
+brew lzo
 brew mas
 brew mysql
 brew mysql@5.7
@@ -45,10 +52,12 @@ brew oniguruma
 brew openexr
 brew openjpeg
 brew openssl@1.1
+brew pango
 brew pcre
 brew pcre2
 brew peco
 brew perl
+brew pixman
 brew pkg-config
 brew postgresql
 brew postgresql@9.6
@@ -87,6 +96,7 @@ cask atom
 cask authy
 cask boostnote
 cask cheatsheet
+cask chromedriver
 cask deepl
 cask discord
 cask docker
@@ -117,6 +127,8 @@ cask zoomus
 
 tap argon/mas
 
+tap github/gh
+
 tap heroku/brew
 brew heroku
 brew heroku-node
@@ -135,8 +147,9 @@ brew wercker-cli
 # App Store applications
 appstore 1091189122 Bear (1.7.11)
 appstore 682658836 GarageBand (10.3.4)
-appstore 1437226581 Horo (2.0.8)
+appstore 1437226581 Horo (2.0.10)
 appstore 408981434 iMovie (10.1.14)
+appstore 1142151959 Just Focus (1.6.6)
 appstore 409183694 Keynote (10.0)
 appstore 409203825 Numbers (10.0)
 appstore 409201541 Pages (10.0)
