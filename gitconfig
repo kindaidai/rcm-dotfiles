@@ -1,6 +1,7 @@
 [user]
   name = kindaidai
   email = kindai.0911@gmail.com
+	signingkey = AFF4F3DC462E6A5B
 [core]
   editor = vim
   excludesfile = /Users/kindaichidai/.gitignore_global
@@ -13,3 +14,7 @@
   log = diff-highlight | less
   show = diff-highlight | less
   diff = diff-highlight | less
+[gpg]
+	program = gpg
+[commit]
+  pgpsign = true

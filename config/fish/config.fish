@@ -169,3 +169,6 @@ set -U FZF_LEGACY_KEYBINDINGS 0
 
 # .node_modules/.bin
 set PATH './node_modules/.bin' $PATH
+
+# gpg
+set -gx GPG_TTY (tty)
