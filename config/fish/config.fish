@@ -1,4 +1,4 @@
-set PATH /usr/local/bin /usr/sbin $PATH
+set PATH /usr/local/bin /usr/sbin /usr/bin $PATH
 set -g theme_display_git_master_branch yes
 # ruby version
 set -g theme_display_ruby yes
@@ -136,7 +136,7 @@ end
 
 
 # aws-cli
-set PATH $HOME/.local/bin $PATH
+# set PATH $HOME/.local/bin $PATH
 
 # for npm bin
 # set -gx PATH '/Users/kindaichidai/.anyenv/envs/nodenv/versions/10.14.0/bin' $PATH
