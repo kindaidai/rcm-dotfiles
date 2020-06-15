@@ -18,3 +18,5 @@
 	program = gpg
 [commit]
   pgpsign = true
+[pull]
+  rebase = true
