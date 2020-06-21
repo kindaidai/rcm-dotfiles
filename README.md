@@ -1,4 +1,5 @@
 # dotfiles
+.ssh 移行する
 
 ## Requirements
 
