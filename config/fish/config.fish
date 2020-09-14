@@ -59,7 +59,7 @@ set -x RBENV_ROOT "$HOME/.anyenv/envs/rbenv"
 set -x PATH $PATH "$RBENV_ROOT/bin"
 set -gx PATH '/Users/kindaichidai/.anyenv/envs/rbenv/shims' $PATH
 set -gx RBENV_SHELL fish
-source '/Users/kindaichidai/.anyenv/envs/rbenv/libexec/../completions/rbenv.fish'
+#source '/Users/kindaichidai/.anyenv/envs/rbenv/libexec/../completions/rbenv.fish'
 command rbenv rehash 2>/dev/null
 function rbenv
   set command $argv[1]
