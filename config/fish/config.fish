@@ -172,3 +172,8 @@ set PATH './node_modules/.bin' $PATH
 
 # gpg
 set -gx GPG_TTY (tty)
+
+set -gx BUNDLER_EDITOR /usr/local/bin/code
+
+# homebrew
+set -gx HOMEBREW_EDITOR /usr/local/bin/code
