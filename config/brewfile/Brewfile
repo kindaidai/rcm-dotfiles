@@ -8,10 +8,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "mongodb/brew"
 tap "rcmdnk/file"
 tap "thoughtbot/formulae"
-tap "wercker/wercker"
 brew "alp"
 brew "anyenv"
 brew "jpeg"
@@ -93,9 +91,9 @@ brew "thoughtbot/formulae/rcm"
 brew "wercker/wercker/wercker-cli"
 cask "1password"
 cask "alfred"
-cask "atom"
 cask "authy"
 cask "boostnote"
+cask "centered"
 cask "cheatsheet"
 cask "chromedriver"
 cask "deepl"
@@ -105,7 +103,6 @@ cask "dropbox"
 cask "figma"
 cask "firefox"
 cask "font-hack-nerd-font"
-cask "google-backup-and-sync"
 cask "google-chrome"
 cask "gyazo"
 cask "iterm2"
@@ -122,7 +119,6 @@ cask "postman"
 cask "psequel"
 cask "sequel-ace"
 cask "sequel-pro"
-cask "skype"
 cask "slack"
 cask "spectacle"
 cask "spotify"
@@ -135,13 +131,6 @@ cask "xquartz"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "Craft", id: 1487937127
-mas "GarageBand", id: 682658836
 mas "Habitify", id: 1111447047
-mas "Horo", id: 1437226581
-mas "iMovie", id: 408981434
-mas "Just Focus", id: 1142151959
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
