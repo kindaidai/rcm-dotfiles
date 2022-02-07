@@ -1,187 +1,147 @@
-
-# tap repositories and their packages
-
-tap homebrew/core
-brew adns
-brew anyenv
-brew awscli
-brew cairo
-brew ctags
-brew docbook
-brew docbook-xsl
-brew fish
-brew fontconfig
-brew freetype
-brew fribidi
-brew fzf
-brew gd
-brew gdbm
-brew gettext
-brew gh
-brew ghostscript
-brew ghq
-brew git
-brew glib
-brew gmp
-brew gnu-getopt
-brew gnupg
-brew gnutls
-brew graphite2
-brew graphviz
-brew gts
-brew h2o
-brew harfbuzz
-brew icu4c
-brew ilmbase
-brew imagemagick
-brew jasper
-brew jpeg
-brew jq
-brew krb5
-brew libassuan
-brew libde265
-brew libevent
-brew libffi
-brew libgcrypt
-brew libgpg-error
-brew libheif
-brew libidn2
-brew libksba
-brew liblqr
-brew libomp
-brew libpng
-brew libtasn1
-brew libtiff
-brew libtool
-brew libunistring
-brew libusb
-brew libyaml
-brew little-cms2
-brew lua
-brew lzo
-brew mas
-brew mysql
-brew mysql@5.7
-brew netpbm
-brew nettle
-brew nginx
-brew node
-brew npth
-brew oniguruma
-brew openexr
-brew openjpeg
-brew openssl@1.1
-brew p11-kit
-brew pango
-brew pcre
-brew pcre2
-brew peco
-brew perl
-brew pinentry
-brew pinentry-mac
-brew pixman
-brew pkg-config
-brew postgresql
-brew postgresql@9.6
-brew protobuf
-brew protobuf@3.7
-brew python
-brew python@3.8
-brew rcm
-brew readline
-brew redis
-brew ruby
-brew shared-mime-info
-brew sqlite
-brew the_silver_searcher
-brew tig
-brew unbound
-brew v8@3.15
-brew vim
-brew webp
-brew x265
-brew xmlto
-brew xz
-brew yarn
-brew zlib
-
-tap homebrew/bundle
-
-tap homebrew/cask-drivers
-cask wd-security
-
-tap homebrew/cask-fonts
-cask font-hack-nerd-font
-
-tap homebrew/services
-
-tap homebrew/cask
-cask 1password
-cask atom
-cask authy
-cask boostnote
-cask cheatsheet
-cask chromedriver
-cask deepl
-cask discord
-cask docker
-cask dropbox
-cask figma
-cask firefox
-cask google-backup-and-sync
-cask google-chrome
-cask gyazo
-cask iterm2
-cask karabiner-elements
-cask keyboard-cleaner
-cask kindle
-cask kindle-previewer
-cask microsoft-edge
-cask ngrok
-cask notion
-cask podcastmenu
-cask postman
-cask psequel
-cask sequel-pro
-cask skype
-cask slack
-cask spectacle
-cask spotify
-cask spotmenu
-cask vagrant
-cask virtualbox
-cask visual-studio-code
-cask xquartz
-cask zoomus
-
-tap argon/mas
-
-tap github/gh
-
-tap heroku/brew
-brew heroku
-brew heroku-node
-
-tap mongodb/brew
-brew mongodb-community
-
-tap rcmdnk/file
-brew brew-file
-
-tap thoughtbot/formulae
-
-tap wercker/wercker
-brew wercker-cli
-
-# App Store applications
-appstore 1091189122 Bear (1.7.13)
-appstore 682658836 GarageBand (10.3.4)
-appstore 1111447047 Habitify (6.4.2)
-appstore 1437226581 Horo (2.0.10)
-appstore 408981434 iMovie (10.1.14)
-appstore 1142151959 Just Focus (1.6.6)
-appstore 409183694 Keynote (10.0)
-appstore 409203825 Numbers (10.0)
-appstore 409201541 Pages (10.0)
-appstore 585829637 Todoist (7.3)
-appstore 497799835 Xcode (11.5)
+tap "argon/mas"
+tap "github/gh"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+tap "rcmdnk/file"
+tap "thoughtbot/formulae"
+tap "wercker/wercker"
+brew "alp"
+brew "anyenv"
+brew "jpeg"
+brew "libpng"
+brew "libtiff"
+brew "webp"
+brew "gdbm"
+brew "readline"
+brew "xz"
+brew "awscli"
+brew "freetype"
+brew "fontconfig"
+brew "gettext"
+brew "libffi"
+brew "pcre"
+brew "glib"
+brew "pkg-config"
+brew "lzo"
+brew "pixman"
+brew "cairo"
+brew "ctags"
+brew "deno"
+brew "pcre2"
+brew "fish"
+brew "fribidi"
+brew "fzf"
+brew "gcc"
+brew "gd"
+brew "gh"
+brew "little-cms2"
+brew "openjpeg"
+brew "ghq"
+brew "git"
+brew "git-delta"
+brew "libtool"
+brew "gnupg"
+brew "graphite2"
+brew "jasper"
+brew "netpbm"
+brew "gts"
+brew "icu4c"
+brew "harfbuzz"
+brew "pango"
+brew "graphviz"
+brew "h2o"
+brew "libde265"
+brew "x265"
+brew "libheif"
+brew "liblqr"
+brew "libomp"
+brew "imagemagick"
+brew "oniguruma"
+brew "jq"
+brew "libyaml"
+brew "lua"
+brew "mysql"
+brew "mysql@5.7", restart_service: true
+brew "nginx"
+brew "node"
+brew "peco"
+brew "perl"
+brew "pinentry-mac"
+brew "postgresql"
+brew "postgresql@9.6"
+brew "redis"
+brew "ruby"
+brew "the_silver_searcher"
+brew "tig"
+brew "v8@3.15"
+brew "vim"
+brew "yarn"
+brew "zlib"
+brew "argon/mas/mas"
+brew "heroku/brew/heroku-node"
+brew "heroku/brew/heroku"
+brew "mongodb/brew/mongodb-community"
+brew "rcmdnk/file/brew-file"
+brew "thoughtbot/formulae/rcm"
+brew "wercker/wercker/wercker-cli"
+cask "1password"
+cask "alfred"
+cask "atom"
+cask "authy"
+cask "boostnote"
+cask "cheatsheet"
+cask "chromedriver"
+cask "deepl"
+cask "discord"
+cask "docker"
+cask "dropbox"
+cask "figma"
+cask "firefox"
+cask "font-hack-nerd-font"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "gyazo"
+cask "iterm2"
+cask "karabiner-elements"
+cask "keyboard-cleaner"
+cask "kindle"
+cask "kindle-previewer"
+cask "microsoft-auto-update"
+cask "microsoft-edge"
+cask "ngrok"
+cask "notion"
+cask "podcastmenu"
+cask "postman"
+cask "psequel"
+cask "sequel-ace"
+cask "sequel-pro"
+cask "skype"
+cask "slack"
+cask "spectacle"
+cask "spotify"
+cask "spotmenu"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "wd-security"
+cask "xquartz"
+cask "zoom"
+mas "Bear", id: 1091189122
+mas "Craft", id: 1487937127
+mas "GarageBand", id: 682658836
+mas "Habitify", id: 1111447047
+mas "Horo", id: 1437226581
+mas "iMovie", id: 408981434
+mas "Just Focus", id: 1142151959
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Todoist", id: 585829637
+mas "Xcode", id: 497799835
