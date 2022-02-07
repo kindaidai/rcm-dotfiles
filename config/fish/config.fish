@@ -116,10 +116,11 @@ end
 # https://github.com/pyenv/pyenv/issues/1184#issuecomment-458358654
 
 # anyenv goenv
-set -x GOENV_ROOT "$HOME/.anyenv/envs/goenv"
+set -x GOENV_ROOT "/Users/kindaichidai/.anyenv/envs/goenv"
 set -x PATH $PATH "$GOENV_ROOT/bin"
 set -gx PATH '/Users/kindaichidai/.anyenv/envs/goenv/shims' $PATH
 set -gx RBENV_SHELL fish
+set -gx GO111MODULE ''
 source '/Users/kindaichidai/.anyenv/envs/goenv/libexec/../completions/goenv.fish'
 command goenv rehash 2>/dev/null
 function goenv
@@ -134,6 +135,10 @@ function goenv
   end
 end
 
+# GOPATH
+set -gx GOPATH '/Users/kindaichidai/go'
+set -gx PATH '$GOPATH/bin' $PATH
+set -gx PATH '$GOPATH/1.16.4/bin' $PATH
 
 # aws-cli
 # set PATH $HOME/.local/bin $PATH
@@ -161,9 +166,6 @@ set -gx OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
 # change directory color
 set -gx LSCOLORS gxfxcxdxbxegedabagacad
 
-# GOPATH
-set -gx GOPATH '/Users/kindaichidai/go'
-
 # fzf
 set -U FZF_LEGACY_KEYBINDINGS 0
 
@@ -177,3 +179,4 @@ set -gx BUNDLER_EDITOR /usr/local/bin/code
 
 # homebrew
 set -gx HOMEBREW_EDITOR /usr/local/bin/code
+
