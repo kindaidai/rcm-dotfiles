@@ -5,23 +5,35 @@
 [core]
   editor = vim
   excludesfile = /Users/kindaichidai/.gitignore_global
-  pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended'
-[interactive]
-  diffFilter = delta --color-only
+  pager = delta
 [alias]
   co = checkout
   sw = switch
   ph = push
   ec = commit -m 'empty commit' --allow-empty
-# [pager]
-#  log = diff-highlight | less
-#  show = diff-highlight | less
-#  diff = diff-highlight | less
+  cp = cherry-pick
+[pager]
+  log = delta | less
+  show = delta | less
+  diff = delta | less
+  reflog = delta | less
 [gpg]
 	program = gpg
 [commit]
   pgpsign = true
 [pull]
   rebase = true
+# delta https://github.com/dandavison/delta#get-started
+[interactive]
+  diffFilter = delta --color-only
 [init]
 	defaultBranch = main
+[delta]
+  navigate = true  # use n and N to move between diff sections
+	line-numbers = true
+[merge]
+  conflictstyle = diff3
+[diff]
+  colorMoved = default
+[branch]
+	sort = -authordate
