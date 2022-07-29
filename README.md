@@ -1,4 +1,5 @@
 # dotfiles
+
 .ssh 移行する
 
 ## Requirements
@@ -22,3 +23,7 @@ gpg --import path/to/gpg-secret.key
 ```
 
 [dein:vim plugin manager](https://github.com/Shougo/dein.vim)
+
+# Notice
+
+202207 に chezmoi に移行
