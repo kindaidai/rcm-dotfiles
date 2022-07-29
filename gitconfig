@@ -1,7 +1,7 @@
 [user]
   name = Dai Kindaichi
   email = kindai.0911@gmail.com
-	signingkey = AFF4F3DC462E6A5B
+  signingkey = AFF4F3DC462E6A5B
 [core]
   editor = vim
   excludesfile = /Users/kindaichidai/.gitignore_global
@@ -18,7 +18,7 @@
   diff = delta | less
   reflog = delta | less
 [gpg]
-	program = gpg
+  program = gpg
 [commit]
   pgpsign = true
 [pull]
@@ -27,13 +27,14 @@
 [interactive]
   diffFilter = delta --color-only
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [delta]
   navigate = true  # use n and N to move between diff sections
-	line-numbers = true
+  line-numbers = false
+  keep-plus-minus-markers = true
 [merge]
   conflictstyle = diff3
 [diff]
   colorMoved = default
 [branch]
-	sort = -authordate
+  sort = -authordate
