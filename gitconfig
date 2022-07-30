@@ -38,3 +38,5 @@
   colorMoved = default
 [branch]
   sort = -authordate
+[sequence]
+	editor = interactive-rebase-tool

@@ -6,6 +6,7 @@ brew 'alp'
 brew 'anyenv'
 brew 'aom'
 brew 'awscli'
+brew 'bat'
 brew 'bdw-gc'
 brew 'berkeley-db'
 brew 'brotli'
@@ -16,6 +17,7 @@ brew 'deno'
 brew 'docbook'
 brew 'docbook-xsl'
 brew 'docker-clean'
+brew 'fd'
 brew 'fish'
 brew 'fontconfig'
 brew 'freetype'
@@ -32,6 +34,7 @@ brew 'ghq'
 brew 'giflib'
 brew 'git'
 brew 'git-delta'
+brew 'git-interactive-rebase-tool'
 brew 'glib'
 brew 'gmp'
 brew 'gnu-getopt'
@@ -130,11 +133,11 @@ brew 'python@3.9'
 brew 'rcm'
 brew 'readline'
 brew 'redis'
+brew 'ripgrep'
 brew 'ruby'
 brew 'shared-mime-info'
 brew 'six'
 brew 'sqlite'
-brew 'the_silver_searcher'
 brew 'tig'
 brew 'unbound'
 brew 'vim'
@@ -209,9 +212,14 @@ brew 'brew-file'
 tap 'thoughtbot/formulae'
 
 # App Store applications
-mas '1Password for Safari (2.3.5)', id: 1569813296
+mas '1Password for Safari (2.3.7)', id: 1569813296
 mas 'Bear (1.9.6)', id: 1091189122
-mas 'Craft (2.2.1)', id: 1487937127
-mas 'Habitify (10.1)', id: 1111447047
+mas 'Craft (2.2.5)', id: 1487937127
+mas 'GarageBand (10.4.6)', id: 682658836
+mas 'Habitify (10.1.1)', id: 1111447047
+mas 'iMovie (10.3.3)', id: 408981434
+mas 'Keynote (12.1)', id: 409183694
+mas 'Numbers (12.1)', id: 409203825
+mas 'Pages (12.1)', id: 409201541
 mas 'Todoist (8.0.7)', id: 585829637
 mas 'Xcode (13.4.1)', id: 497799835

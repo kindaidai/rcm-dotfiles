@@ -125,3 +125,6 @@ set -gx AWS_PROFILE tabechoku-sso
 # Go
 set -gx GOPATH $HOME/go
 set -gx PATH "$GOPATH/bin" $PATH
+
+# fzf with fd
+set -gx FZF_DEFAULT_COMMAND "fd --type file --follow --hidden --exclude .git"
