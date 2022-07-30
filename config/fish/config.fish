@@ -89,19 +89,24 @@ set PATH /opt/homebrew/opt/mysql-client@5.7/bin $PATH
 # for imagemagick@6
 set PATH /opt/homebrew/opt/imagemagick@6/bin $PATH
 
-#fisherパッケージoh-my-fish/plugin-pecoの設定
+# ctrl+r でhistoryでfzfを有効にする
 function fish_user_key_bindings
-  bind \cr peco_select_history # Bind for prco history to Ctrl+r
+    bind \cr "history | fzf" # Bind for history to Ctrl+r
 end
-
-#  +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
-# set -gx OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
-
-# change directory color
-# set -gx LSCOLORS gxfxcxdxbxegedabagacad
 
 # fzf
 set -U FZF_LEGACY_KEYBINDINGS 0
+set -gx FZF_DEFAULT_OPTS "--height 70% --border --color=light"
+set -gx FZF_ALT_C_OPTS "--select-1 --exit-0"
+## sshコマンドでfzfを有効にする
+## https://github.com/junegunn/fzf/wiki/Examples-(fish)#ssh
+function fssh -d "Fuzzy-find ssh host via ag and ssh into it"
+    rg --ignore-case '^host [^*]' ~/.ssh/config | cut -d ' ' -f 2 | fzf | read -l result; and ssh "$result"
+end
+## tmux
+# function fs -d "Switch tmux session"
+#   tmux list-sessions -F "#{session_name}" | fzf | read -l result; and tmux switch-client -t "$result"
+# end
 
 # .node_modules/.bin
 set PATH './node_modules/.bin' $PATH
@@ -133,3 +138,6 @@ set -gx FZF_DEFAULT_COMMAND "fd --type file --follow --hidden --exclude .git"
 zoxide init fish | source
 # 必要ならばセットする
 # set -gx _ZO_DATA_DIR /path/to/
+
+# starship
+starship init fish | source

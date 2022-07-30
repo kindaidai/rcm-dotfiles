@@ -1,7 +1,7 @@
-# ctags for atom
-.tags
-.tags1
 # auto complite ruby for vscode
+
 .solargraph.yml
+
 # curl http://localhost:3000 --cookie-jar cookie | grep csrf
+
 cookie
