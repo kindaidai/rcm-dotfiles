@@ -128,3 +128,8 @@ set -gx PATH "$GOPATH/bin" $PATH
 
 # fzf with fd
 set -gx FZF_DEFAULT_COMMAND "fd --type file --follow --hidden --exclude .git"
+
+# zoxide
+zoxide init fish | source
+# 必要ならばセットする
+# set -gx _ZO_DATA_DIR /path/to/
